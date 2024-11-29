@@ -1,0 +1,242 @@
+.contact {
+    padding: 130px 0;
+}
+
+.contact .heading h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+
+}
+
+.contact .heading h2 span {
+    color: #00a4cd;
+}
+
+.contact .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+.contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    border: 0;
+    border-radius: 10px;
+}
+
+.contact button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #00a4cd;
+    color: #ffffff;
+}
+
+.contact .title h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contact .title p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    line-height: 1.6;
+    margin: 0 0 40px;
+}
+
+.contact .content .info {
+    margin-top: 10px;
+}
+.contact .content .info i {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: #02434b;
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: center;
+    width: 20px;
+}
+.contact .content .info h4 {
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.contact .content .info h4 span {
+    font-size: 13px;
+    font-weight: 300;
+    color: #999999;
+}
+
+
+
+/* Email Section Styling */
+.email-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.email-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    color: #02434b;
+    font-size: 24px;
+    border-radius: 100%;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.email-icon:hover {
+    background-color: #d93025; /* Background hover color */
+}
+
+.email-icon:hover i {
+    color: #fff !important; /* Ensure icon color changes */
+    transition: color 0.3s ease-in-out;
+}
+
+.email-icon:hover i {
+    color: #fff; /* Change icon color on hover */
+}
+
+.email-info h4 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.email-info h4 span {
+    color: #999999;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+
+
+
+
+.contact a
+{
+  color:#737373;
+}
+
+
+.contact a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+
+.contact .content .social-icons
+{
+  text-align:left
+}
+
+.contact .content .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius:100%;
+  background-color:#ffffff
+}
+
+.social-icons
+{
+  padding-left: 50px;
+  margin-bottom:0;
+  list-style:none
+}
+
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:12px
+}
+
+.social-icons a {
+    display: inline-flex; /* Ensures flexible alignment */
+    align-items: center; /* Vertically center icon */
+    justify-content: center; /* Horizontally center icon */
+    width: 44px; /* Circle size */
+    height: 44px; /* Circle size */
+    font-size: 26px; /* Icon size */
+    border-radius: 100%; /* Circle shape */
+    background-color: #eceeef; /* Default background color */
+    color: #02434b; /* Icon color */
+    transition: all 0.2s linear; /* Smooth hover effect */
+    margin: 10px 8px 4px 0; /* Adjust spacing */
+    padding: 0; /* Remove extra space */
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff; /* Change icon color on hover */
+    background-color: #29aafe; /* Change background color on hover */
+}
+
+.social-icons a.github:hover {
+    background-color: #151013;
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #007bb6;
+}
+
+.social-icons a.instagram:hover {
+    background-color: #bd0c42;
+}
+
+.social-icons a.twitter:hover {
+    background-color: #00aced;
+}
+
+.social-icons a.facebook:hover {
+    background-color: #3b5998;
+}
+
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+#success-message {
+    color: #28a745; /* Green color */
+}
+
+#error-message {
+    color: #dc3545; /* Red color */
+}
